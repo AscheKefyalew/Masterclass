@@ -1,6 +1,15 @@
-age = int(input("Enter you age: "))
+name = input("What is your name: ")
+age = int(input("Enter you age {}: ".format(name)))
 
-if age >= 18:
-    print("You are eligible to vote")
+print()
+print("Your age is", age)
+
+print()
+if age < 18:
+    print(name + "," " you are not eligible to vote.","Please come back in {} years.".format(18 - age))
+elif age >= 200:
+    print("sorry {}, you die in return of the Jedi.".format(name))
 else:
-    print("You are not eligible to vote")
+    print(name + "," " you are eligible to vote")
+
+print()
