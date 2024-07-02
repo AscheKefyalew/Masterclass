@@ -18,7 +18,7 @@ while True:
         # Guess lower. The high end of the range becomes 1 less than the guess.
         high = guess -1
     elif high_low == "c":
-        print("I got it in {} guesses".format(guesses))
+        print("I got it in {} guesses!".format(guesses))
         break
 
     else:

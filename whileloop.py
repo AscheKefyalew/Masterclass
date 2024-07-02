@@ -1,6 +1,9 @@
+# WITH for
 # for i in range(10):
 #     print("i is now {}".format(i))
 
+
+# WITH while
 i = 0
 while i < 10:
     print("i is now {}".format(i))
