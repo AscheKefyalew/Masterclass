@@ -1,0 +1,9 @@
+step 1: features and functions:
+Add new contact
+View contact
+Edit contact
+Delete contact
+Search for a contact
+
+Data structure:
+List and Dictionary
