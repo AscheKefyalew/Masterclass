@@ -1,6 +1,5 @@
 # immutabele means it can't be changed.
 
-
 # result = True
 # another_result = result
 # print(id(result))
