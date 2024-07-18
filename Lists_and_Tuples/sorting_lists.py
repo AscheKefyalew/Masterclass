@@ -3,6 +3,7 @@ odd = [1, 3, 5, 7, 9]
 
 even.extend(odd)    # Will join them
 print(even)
+
 another_even = even
 print(even)
 
